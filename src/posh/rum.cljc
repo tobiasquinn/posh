@@ -1,6 +1,6 @@
 (ns posh.rum
   (:require 
-    [posh.plugin-base :as base]
+    [posh.plugin-base :as base :include-macros true]
     [rum.core :as rum]
     [datascript.core :as d]))
 
