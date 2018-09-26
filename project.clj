@@ -1,15 +1,15 @@
-(defproject posh "0.5.6"
+(defproject posh "0.5.6-rum"
   :description "Luxuriously easy and powerful Reagent / Datascript front-end framework"
   :url "http://github.com/mpdairy/posh/"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.7.0"]
-                 [org.clojure/clojurescript "1.7.228"]
+  :dependencies [[org.clojure/clojure "1.9.0"]
+                 [org.clojure/clojurescript "1.10.339"]
                  #_[datascript "0.15.0"]
                  #_[com.datomic/datomic-free "0.9.5407"]
                  #_[rum "0.11.2"]
                  [org.clojure/core.match "0.3.0-alpha4"]]
-  :plugins [[lein-cljsbuild "1.1.3"]]
+  :plugins [[lein-cljsbuild "1.1.7"]]
   :cljsbuild {
               :builds [ {:id "posh"
                          :source-paths ["src/"]
